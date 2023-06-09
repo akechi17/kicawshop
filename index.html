@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kicaw Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" type="x-icon" href="img/logo1.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main>
+      <header id="header" class="header">
+        <nav class="navigation">
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" height="100px" />
+            </div>
+
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#introduction">Introduction</a>
+                </li>
+                <li>
+                  <a href="#projects">Projects</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="mailto:rafie0917@gmail.com" class="button">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Kicaw Shop</h1>
+              <p class="text">Order a website from us, we're a professional company</p>
+              <a href="#about" class="btn">About Kicaw Shop</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points2.png" class="points points2" alt="" />
+              <img src="./img/goro.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- introduction section -->
+      <section class="features" id="introduction">
+        <article>
+          <div class="left-col">
+            <div class="left-col-text">
+              <h2>Kicaw Shop</h2>
+              <p>We can do frontend and backend projects. Or even a fullstack projects</p>
+              <a href="#" target="blank">Back To Top</a>
+            </div>
+          </div>
+
+          <div class="right-col">
+            <picture>
+              <img src="img/frontend.webp" alt="transform image" />
+            </picture>
+          </div>
+        </article>
+
+        <article>
+          <div class="right-col">
+            <picture>
+              <img src="img/backend.webp" alt="stand out imnage" />
+            </picture>
+          </div>
+          <div class="left-col">
+            <div class="left-col-text">
+              <h2>About Us</h2>
+              <p>
+                We're a student at SMKN 1 Cibinong. We have anthusisasm in programming, especially in website
+                development. 
+              </p>
+              <a href="#" target="blank">Back To Top</a>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="background-bg"></div>
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">Projects</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <button class="filter-btn active" data-filter="*">ALL</button>
+              <button class="filter-btn" data-filter=".basic">Basic</button>
+              <button class="filter-btn" data-filter=".react">React JS</button>
+              <button class="filter-btn" data-filter=".php">PHP</button>
+            </div>
+            <div class="grid">
+              <div class="projects-wrap react" id="game">
+                <div class="projects-card">
+                  <div class="projects-image">
+                    <img src="./img/projects/game.png" alt="" />
+                  </div>
+                  <div class="projects-content">
+                    <div class="projects-info">
+                      <h5 class="projects-date">November, 15 2022</h5>
+                      <h5 class="projects-user">Kicaw Shop<i class="fas fa-user"></i></h5>
+                    </div>
+                    <h3 class="title-sm">Akechi's Memory</h3>
+                    <p class="projects-text">A memory game that made by React JS</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-wrap basic" id="babymetal">
+                <div class="projects-card">
+                  <div class="projects-image">
+                    <img src="./img/projects/babymetal.png" alt="" />
+                  </div>
+                  <div class="projects-content">
+                    <div class="projects-info">
+                      <h5 class="projects-date">January, 20 2022</h5>
+                      <h5 class="projects-user">Kicaw Shop<i class="fas fa-user"></i></h5>
+                    </div>
+                    <h3 class="title-sm">Babymetal Website</h3>
+                    <p class="projects-text">A website that i made when i learn a basic website development</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-wrap basic" id="loopstudios">
+                <div class="projects-card">
+                  <div class="projects-image">
+                    <img src="./img/projects/loopstudios.png" alt="" />
+                  </div>
+                  <div class="projects-content">
+                    <div class="projects-info">
+                      <h5 class="projects-date">February, 24 2022</h5>
+                      <h5 class="projects-user">Kicaw Shop<i class="fas fa-user"></i></h5>
+                    </div>
+                    <h3 class="title-sm">Loopstudio</h3>
+                    <p class="projects-text">A website that i made with my friend</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-wrap basic" id="hujanwarna">
+                <div class="projects-card">
+                  <div class="projects-image">
+                    <img src="./img/projects/hujanwarna.png" alt="" />
+                  </div>
+                  <div class="projects-content">
+                    <div class="projects-info">
+                      <h5 class="projects-date">September, 17 2022</h5>
+                      <h5 class="projects-user">Kicaw Shop<i class="fas fa-user"></i></h5>
+                    </div>
+                    <h3 class="title-sm">Hujan Warna Cup</h3>
+                    <p class="projects-text">Website untuk toko cup minuman. Dibuat sesuai design dari client</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="projects-wrap php" id="php">
+                <div class="projects-card">
+                  <div class="projects-image">
+                    <img src="./img/projects/php.png" alt="" />
+                  </div>
+                  <div class="projects-content">
+                    <div class="projects-info">
+                      <h5 class="projects-date">July, 27 2022</h5>
+                      <h5 class="projects-user">Kicaw Shop<i class="fas fa-user"></i></h5>
+                    </div>
+                    <h3 class="title-sm">PHP</h3>
+                    <p class="projects-text">A CRUD project that i made when i learned php</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Skills">Programming</h3>
+          </div>
+
+          <div class="grid-2">
+            <div class="column-1">
+              <h3 class="subTitle">We're Kicaw Shop</h3>
+              <p class="text">We gonna show you our skill progress in web development</p>
+              <div class="skills">
+                <div class="skill html">
+                  <h3 class="skill-title">HTML</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="95%"></div>
+                  </div>
+                </div>
+                <div class="skill css">
+                  <h3 class="skill-title">CSS</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="80%"></div>
+                  </div>
+                </div>
+                <div class="skill js">
+                  <h3 class="skill-title">JavaScript</h3>
+                  <div class="skill-bar">
+                    <div class="skill-progress" data-progress="85%"></div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="btn">Back To Top</a>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img src="./img/akechi.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="subTitle">Thanks</h3>
+            <p class="text">Thank you for reviewing our portfolio and our projects!</p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="subTitle">Links</h3>
+            <ul>
+              <li>
+                <a href="#introduction">Introduction</a>
+              </li>
+              <li>
+                <a href="#projects">Projects</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="subTitle">Projects</h3>
+            <ul>
+              <li>
+                <a href="https://rafie.netlify.app/" target="blank">Babymetal</a>
+              </li>
+              <li>
+                <a href="https://hujanwarnacup.com" target="blank">Hujan Warna</a>
+              </li>
+              <li>
+                <a href="https://rafiesija.netlify.app" target="blank">Akechi's Memory</a>
+              </li>
+              <li>
+                <a href="https://akechi17.github.io/Loopstudios/" target="blank">Loopstudio</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-email">
+            <h3 class="subTitle">E-mail</h3>
+            <ul>
+              <li>
+                <a href="mailto:rafie0917@gmail.com">rafie0917@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2023 All rights reserved |
+              <span>Kicaw Shop</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://www.facebook.com/rafie.pradipta.5" target="blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://twitter.com/RafiePradipta" target="blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/rafiepradipta/" target="blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="loader-container">
+      <img src="img/akechi.gif" alt="" />
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
